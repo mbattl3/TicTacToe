@@ -1,0 +1,38 @@
+#board {
+  padding-top: 3em;
+  text-align: center;
+  background-color: rgba(133, 62, 62, 0.685);
+  height: 80vh;
+}
+
+.row > div {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.row > div :hover {
+  cursor: pointer;
+}
+
+.row {
+  clear: both;
+  margin: 0 auto;
+  width: 302px;
+}
+
+.top {
+  border-bottom: 1px solid rgb(68, 11, 11);
+}
+
+.bottom {
+  border-top: 1px solid rgb(68, 11, 11);
+}
+
+.left {
+  border-right: 1px solid rgba(161, 77, 77, 0.521);
+}
+
+.right {
+  border-left: 1px solid rgba(161, 77, 77, 0.521);
+}
